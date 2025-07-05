@@ -39,6 +39,10 @@
     max-width: 1200px;
     margin: auto;
 }
+.background,.background-2,.background-3{
+    background-color: #0d1323;
+    color: white;
+}
 
 button,
 input,
@@ -71,7 +75,18 @@ header ul {
     list-style: none;
     gap: 50px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
+textarea{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+textarea:focus{
+    border: 1px solid #2563eb;
+    outline: none;
+}
 .modal {
     position: absolute;
     top: 160px;
@@ -141,7 +156,7 @@ input:focus {
 .div-2-1 > a i {
     border-radius: 50%;
     padding: 8px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-right: 10px;
     outline: none;
 }
@@ -197,6 +212,9 @@ footer{
     width: 300px;
     height: 300px;
     object-fit: cover;
+}
+.footer-max-img {
+    text-align: center;
 }
 
 
